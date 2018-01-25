@@ -28,6 +28,7 @@ function prependKitten(name){
   return macke;
 }
 function removeLastKitten(){
-	var macke = kittens.slice(-1);
+	var macke = [...kittens];
+	macke.pop();
   return macke;
 }
