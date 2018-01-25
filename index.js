@@ -32,3 +32,8 @@ function removeLastKitten(){
 	macke.pop();
   return macke;
 }
+function removeFirstKitten(){
+	var macke = [...kittens];
+	macke.shift();
+  return macke;
+}
