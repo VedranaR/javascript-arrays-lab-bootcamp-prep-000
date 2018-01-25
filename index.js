@@ -22,8 +22,8 @@ function appendKitten(name){
 	macke.push(name);
   return macke;
 }
-
+function prependKitten(name){
 	var macke = [...kittens];
-	macke.push(name);
+	macke.unshift(name);
   return macke;
 }
