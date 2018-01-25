@@ -22,3 +22,8 @@ function appendKitten(name){
 	macke.push(name);
   return macke;
 }
+
+	var macke = [...kittens];
+	macke.push(name);
+  return macke;
+}
